@@ -35,8 +35,6 @@ int main()
 		if (temp > dmax)
 			dmax = temp;
 	}
-
 	printf("%d\n", dmax);
-
 	return 0;
 }
