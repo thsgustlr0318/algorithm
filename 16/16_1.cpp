@@ -13,7 +13,6 @@ inline void setComposite(int k) {
 }
 void eratosthenes() {
 	memset(sieve, 255, sizeof(sieve));
-	//0, 1 ¸¶½ºÅ·
 	setComposite(0);
 	setComposite(1);
 	int sqrtn = int(sqrt(n));
