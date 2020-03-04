@@ -1,6 +1,5 @@
 #include <iostream>
 #include <queue>
-#include <cstring>
 #include <algorithm>
 #include <string>
 using namespace std;
@@ -33,8 +32,8 @@ void bfs()
 			int ny = y + moveDir[i][0], nx = x + moveDir[i][1];
 			if (ny < 0 || nx < 0 || ny >= n || nx >= m) continue;
 			if (cur.wall) {
-				if (arr[ny][nx] == 0 && !visit[true][ny][nx]) {
-					visit[true][ny][nx] = visit[cur.wall][y][x] + 1;
+				if (arr[ny][nx] == 0 && !visit[cur.wall][ny][nx]) {
+					visit[cur.wall][ny][nx] = visit[cur.wall][y][x] + 1;
 					q.push(pos(ny, nx, cur.wall));
 				}
 			}
