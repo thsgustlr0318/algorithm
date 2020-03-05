@@ -30,4 +30,5 @@ int main()
 			arr[i][j] == INF ? cout << "0 " : cout << arr[i][j] << " ";
 		cout << "\n";
 	}
+	return 0;
 }
