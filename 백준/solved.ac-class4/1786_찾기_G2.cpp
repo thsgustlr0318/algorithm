@@ -36,7 +36,7 @@ int main()
 	for (auto& element : v)
 		cout << element << " ";
 }
-//KMP 알고리즘
+//KMP
 /*
 for (int index = 0, compare = 0; index < tsize; index++) {
 	while (compare > 0 && t[index] != p[compare]) {
