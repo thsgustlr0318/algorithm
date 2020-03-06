@@ -36,8 +36,8 @@ int main()
 	for (auto& element : v)
 		cout << element << " ";
 }
-//KMP알고리즘
-//중간부분
+//KMP 알고리즘
+//중간부분 대체
 /*
 for (int index = 0, compare = 0; index < tsize; index++) {
 	while (compare > 0 && t[index] != p[compare]) {
