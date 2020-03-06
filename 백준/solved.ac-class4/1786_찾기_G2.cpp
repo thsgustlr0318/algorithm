@@ -37,7 +37,7 @@ int main()
 		cout << element << " ";
 }
 //KMP알고리즘
-//중간부분 
+//중간부분
 /*
 for (int index = 0, compare = 0; index < tsize; index++) {
 	while (compare > 0 && t[index] != p[compare]) {
@@ -51,4 +51,4 @@ for (int index = 0, compare = 0; index < tsize; index++) {
 		}
 	}
 }
-*/
+*/ 
