@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <cstring>
 using namespace std;
 int arr[101][101];
 struct info {
@@ -23,7 +22,6 @@ void getNextArr(vector<info> &v, vector<info> &temp)
 }
 int main()
 {
-
 	cin >> r >> c >> k;
 	for (int i = 1; i <= 3; i++)
 		for (int j = 1; j <= 3; j++)
