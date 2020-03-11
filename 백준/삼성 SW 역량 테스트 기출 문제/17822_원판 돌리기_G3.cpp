@@ -22,13 +22,14 @@ int main()
 	for (int i = 0; i < t; i++) {
 		int x, d, k;
 		cin >> x >> d >> k;
+		//원판 돌리는 방향 고정
 		d == 0 ? k %= m : k = m - k % m;
-		command.push({ x, k % m });
+		command.push({ x, k });
 	}
 	while (!command.empty()) {
 		pos cur = command.front();
 		command.pop();
-		//회전
+		//원판 회전
 		for (int idx = cur.disk; idx <= n; idx += cur.disk)
 			rotate(board[idx - 1], board[idx - 1] + m - cur.cnt, board[idx - 1] + m);
 		bool flag = false;
