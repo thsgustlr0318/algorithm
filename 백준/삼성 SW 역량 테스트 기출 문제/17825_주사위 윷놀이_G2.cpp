@@ -19,9 +19,9 @@ void dfs(int cnt)
 				if (horse[i] == 5) next += 15;	//파란칸
 				if (24 <= next && next <= 26)	//25~35
 					next += 5;
-				else if (next == 27)				//40
+				else if (next == 27)		//40
 					next = 20;
-				else if (next >= 28)				//도착 이상
+				else if (next >= 28)		//도착 이상
 					next = GOAL;
 			}
 			//두번째 코너(20~24)
@@ -29,23 +29,23 @@ void dfs(int cnt)
 				if (horse[i] == 10) next += 13;	//파란칸
 				if (26 <= next && next <= 28)	//25~35
 					next += 3;
-				else if (next == 29)				//40
+				else if (next == 29)		//40
 					next = 20;
-				else if (next >= 30)				//도착 이상
+				else if (next >= 30)		//도착 이상
 					next = GOAL;
 			}
 			//세번째 코너(30~25, 25~35)
 			else if (horse[i] == 15 || (26 <= horse[i] && horse[i] <= 31)) {
 				if (horse[i] == 15) next += 10;	//파란칸
-				if (next == 32)					//40
+				if (next == 32)			//40
 					next = 20;
-				else if (next >= 33)				//도착 이상
+				else if (next >= 33)		//도착 이상
 					next = GOAL;
 			}
 			//가장자리
 			else {
 				next = horse[i] + dice[cnt];
-				if (next >= 21)					//도착 이상
+				if (next >= 21)			//도착 이상
 					next = GOAL;
 			}
 			//마지막칸이 아닌데 말이 있는경우, 다음말 확인
