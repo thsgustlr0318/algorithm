@@ -21,7 +21,7 @@ void dfs(int cnt)
 					next += 5;
 				else if (next == 27)		//40
 					next = 20;
-				else if (next >= 28)		//도착 이상
+				else if (next >= 28)		//도착칸 이상
 					next = GOAL;
 			}
 			//두번째 코너(20~24)
@@ -31,7 +31,7 @@ void dfs(int cnt)
 					next += 3;
 				else if (next == 29)		//40
 					next = 20;
-				else if (next >= 30)		//도착 이상
+				else if (next >= 30)		//도착칸 이상
 					next = GOAL;
 			}
 			//세번째 코너(30~25, 25~35)
@@ -39,13 +39,13 @@ void dfs(int cnt)
 				if (horse[i] == 15) next += 10;	//파란칸
 				if (next == 32)			//40
 					next = 20;
-				else if (next >= 33)		//도착 이상
+				else if (next >= 33)		//도착칸 이상
 					next = GOAL;
 			}
 			//가장자리
 			else {
 				next = horse[i] + dice[cnt];
-				if (next >= 21)			//도착 이상
+				if (next >= 21)			//도착칸 이상
 					next = GOAL;
 			}
 			//마지막칸이 아닌데 말이 있는경우, 다음말 확인
@@ -66,10 +66,10 @@ void dfs(int cnt)
 int main()
 {
 	//체스판 셋팅
-	for (int i = 0, value = 0; i <= 20; i++, value += 2)	board[i] = value;	//가장자리
+	for (int i = 0, value = 0; i <= 20; i++, value += 2)	board[i] = value;		//가장자리
 	for (int i = 21, value = 13; i <= 23; i++, value += 3)	board[i] = value;	//13~19
 	for (int i = 24, value = 22; i <= 25; i++, value += 2)	board[i] = value;	//22~24
-	for (int i = 26, value = 28; i <= 28; i++, value--)	board[i] = value;	//28~26
+	for (int i = 26, value = 28; i <= 28; i++, value--)	board[i] = value;		//28~26
 	for (int i = 29, value = 25; i <= 31; i++, value += 5)	board[i] = value;	//25~35
 	board[GOAL] = 0;
 	for (int i = 0; i < 10; i++) 
