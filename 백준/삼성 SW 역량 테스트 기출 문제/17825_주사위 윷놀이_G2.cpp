@@ -66,10 +66,10 @@ void dfs(int cnt)
 int main()
 {
 	//체스판 셋팅
-	for (int i = 0, value = 0; i <= 20; i++, value += 2)		board[i] = value;	//가장자리
+	for (int i = 0, value = 0; i <= 20; i++, value += 2)	board[i] = value;	//가장자리
 	for (int i = 21, value = 13; i <= 23; i++, value += 3)	board[i] = value;	//13~19
 	for (int i = 24, value = 22; i <= 25; i++, value += 2)	board[i] = value;	//22~24
-	for (int i = 26, value = 28; i <= 28; i++, value--)		board[i] = value;	//28~26
+	for (int i = 26, value = 28; i <= 28; i++, value--)	board[i] = value;	//28~26
 	for (int i = 29, value = 25; i <= 31; i++, value += 5)	board[i] = value;	//25~35
 	board[GOAL] = 0;
 	for (int i = 0; i < 10; i++) 
