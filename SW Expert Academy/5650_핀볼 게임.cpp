@@ -4,9 +4,10 @@
 using namespace std;
 int n, ans = 0;
 int board[100][100];
-int moveDir[4][2] = { {-1, 0}, {0, 1}, {1, 0}, {0, -1} };
-vector<pair<int, int>> blank;
-vector<pair<int, int>> wormholl[5];
+int moveDir[4][2] = { {-1, 0}, {0, 1}, {1, 0}, {0, -1} }; //위, 오른쪽, 아래 왼쪽(0, 1, 2, 3)
+vector<pair<int, int>> blank;		//비어있는 칸
+vector<pair<int, int>> wormholl[5];	//웜홀
+//벽의 빗금 부분 부딪힐 때
 void changeDirTriangle(int& dir, int wallCase)
 {
 	if (wallCase == 1) dir == 2 ? dir = 1 : dir = 0;
@@ -14,6 +15,7 @@ void changeDirTriangle(int& dir, int wallCase)
 	else if (wallCase == 3) dir == 0 ? dir = 3 : dir = 2;
 	else dir == 1 ? dir = 0 : dir = 3;
 }
+//벽의 일직선 부분 부딪힐 때
 void changeDirWall(int &dir)
 {
 	if (dir == 0) dir = 2;
@@ -21,6 +23,7 @@ void changeDirWall(int &dir)
 	else if (dir == 2) dir = 0;
 	else dir = 1;
 }
+//웜홀 통과시
 void passWormHoll(int& y, int& x, int hollnum)
 {
 	if (wormholl[hollnum][0].first == y && wormholl[hollnum][0].second == x)
