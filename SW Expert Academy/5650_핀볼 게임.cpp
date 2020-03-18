@@ -2,12 +2,6 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-struct ballPos {
-	int y, x, dir;
-	ballPos(int a, int b, int c) {
-		y = a, x = b, dir = c;
-	}
-};
 int n, ans = 0;
 int board[100][100];
 int moveDir[4][2] = { {-1, 0}, {0, 1}, {1, 0}, {0, -1} };
@@ -34,9 +28,9 @@ void passWormHoll(int& y, int& x, int hollnum)
 	else
 		y = wormholl[hollnum][0].first, x = wormholl[hollnum][0].second;
 }
-void playGame(ballPos ball)
+void playGame(int fy, int fx, int dir)
 {
-	int y = ball.y, x = ball.x, dir = ball.dir;
+	int y = fy, x = fx;
 	int ny = y, nx = x;
 	int cnt = 0;
 	while (1) {
@@ -49,12 +43,12 @@ void playGame(ballPos ball)
 			continue;
 		}
 		//빈공간
-		else if (board[ny][nx] == 0 && !(ny==ball.y && nx==ball.x)) {
+		else if (board[ny][nx] == 0 && !(ny == fy && nx == fx)) {
 			y = ny, x = nx;
 			continue;
 		}
 		//1, 2, 3, 4번
-		else if (board[ny][nx] == 1 || board[ny][nx] == 2 || board[ny][nx] == 3 || board[ny][nx] == 4) {			
+		else if (board[ny][nx] == 1 || board[ny][nx] == 2 || board[ny][nx] == 3 || board[ny][nx] == 4) {
 			if (dir == board[ny][nx] - 1 || dir == (board[ny][nx] % 4)) {
 				y = ny, x = nx;
 				changeDirWall(dir);
@@ -67,7 +61,7 @@ void playGame(ballPos ball)
 			continue;
 		}
 		//블랙홀
-		else if (board[ny][nx] == -1 || (ny == ball.y && nx == ball.x))
+		else if (board[ny][nx] == -1 || (ny == fy && nx == fx))
 			break;
 		//웜홀
 		else {
@@ -91,20 +85,20 @@ int main(int argc, char** argv)
 	int T;
 	cin >> T;
 	for (test_case = 1; test_case <= T; ++test_case)
-	{		
+	{
 		cin >> n;
 		for (int i = 0; i < n; i++)
 			for (int j = 0; j < n; j++) {
 				cin >> board[i][j];
 				if (board[i][j] == 0)
 					blank.push_back({ i, j });
-				else if (6 <= board[i][j] && board[i][j] <= 10) 
-					wormholl[board[i][j] - 6].push_back({ i, j });				
+				else if (6 <= board[i][j] && board[i][j] <= 10)
+					wormholl[board[i][j] - 6].push_back({ i, j });
 			}
 		int bsize = blank.size();
 		for (int i = 0; i < bsize; i++)
 			for (int dir = 0; dir < 4; dir++)
-				playGame(ballPos(blank[i].first, blank[i].second, dir));
+				playGame(blank[i].first, blank[i].second, dir);
 		cout << "#" << test_case << " " << ans << "\n";
 		initGame();
 	}
