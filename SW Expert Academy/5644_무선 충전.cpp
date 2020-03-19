@@ -2,7 +2,6 @@
 #include <algorithm>
 #include <vector>
 #include <queue>
-#include <cstring>
 using namespace std;
 //BC의 성능과 BC의 번호
 struct bcInfo {
@@ -37,7 +36,7 @@ void setMap(int x, int y, int c, int p, int idx)
 	while (!q.empty()) {
 		int cy = q.front().first, cx = q.front().second;
 		q.pop();
-		if (visit[cy][cx] >= c + 1) continue;
+		if (visit[cy][cx] > c ) continue;
 		for (int i = 1; i <= 4; i++) {
 			int ny = cy + moveDir[i][0], nx = cx + moveDir[i][1];
 			if (ny < 0 || nx < 0 || ny >= 10 || nx >= 10 || visit[ny][nx]) continue;
