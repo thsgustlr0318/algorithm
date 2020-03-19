@@ -11,7 +11,6 @@
 * 5650_핀볼 게임
 > * 출처 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo&categoryId=AWXRF8s6ezEDFAUo&categoryType=CODE
 
-## 2020-03-18
 # D5
 * 4112_이상한 피라미드 탐험
 > * 출처 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWJHmLraeEwDFAUH&categoryId=AWJHmLraeEwDFAUH&categoryType=CODE
