@@ -1,10 +1,15 @@
 # SW Expert Academy
 
+## 2020-03-21
+### 4008. 숫자 만들기
+* 모의 SW 역량테스트
+> * 출처 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeRZV6kBUDFAVH&categoryId=AWIeRZV6kBUDFAVH&categoryType=CODE
+
 
 ## 2020-03-20
 ### 5656. 벽돌 깨기
 * 모의 SW 역량테스트
-> * 출처 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo
+> * 출처 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo	
 
 ### 5658. 보물상자 비밀번호
 * 모의 SW 역량테스트
