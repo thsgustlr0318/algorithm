@@ -1,6 +1,10 @@
 # SW Expert Academy
 
 ## 2020-03-23
+### 4013. 특이한 자석
+* 모의 SW 역량테스트
+> * 출처 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeV9sKkcoDFAVH
+
 ### 4012. 요리사
 * 모의 SW 역량테스트
 > * 출처 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWIeUtVakTMDFAVH
