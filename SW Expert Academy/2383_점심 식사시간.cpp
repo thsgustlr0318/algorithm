@@ -10,17 +10,17 @@ struct Info {
 };
 //사람들, 계단 2개의 좌표
 vector<Info> people, stairs;
+//stair1, stair2를 이용하는 사람들 번호
+vector<int> stair1, stair2;
 int map[10][10];
 int ans, n;
 bool check[10];
-//stair1, stair2를 이용하는 사람들 번호
-vector<int> stair1, stair2;
 void init()
 {
     stair1.clear(), people.clear(), stairs.clear();
     ans = 2e9;
 }
-int calc(vector<int>& v, Info stairnum)
+int calc(const vector<int>& v, const Info& stairnum)
 {
     int time = 0, cnt = v.size(), cost = map[stairnum.y][stairnum.x];
     vector<int> arrivetime;
