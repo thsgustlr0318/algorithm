@@ -1,6 +1,10 @@
 # SW Expert Academy
 
 ## 2020-03-29
+### 1953. 탈주범 검거
+* 모의 SW 역량테스트
+> * 출처 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpLlKAQ4DFAUq
+
 ### 2382. 미생물 격리
 * 모의 SW 역량테스트
 > * 출처 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl
