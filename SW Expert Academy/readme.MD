@@ -1,5 +1,11 @@
 # SW Expert Academy
 
+## 2020-03-29
+### 2382. 미생물 격리
+* 모의 SW 역량테스트
+> * 출처 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV597vbqAH0DFAVl
+
+
 ## 2020-03-27
 ### 2383. 점심 식사시간
 * 모의 SW 역량테스트
