@@ -1,6 +1,10 @@
 # SW Expert Academy
 
 ## 2020-03-30
+### 1949. 등산로 조성
+* 모의 SW 역량테스트
+> * 출처 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PoOKKAPIDFAUq
+
 ### 1952. 수영장
 * 모의 SW 역량테스트
 > * 출처 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5PpFQaAQMDFAUq&categoryId=AV5PpFQaAQMDFAUq&categoryType=CODE
