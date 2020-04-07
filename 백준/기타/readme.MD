@@ -1,6 +1,10 @@
 # 백준 기타
 
 ## 2020-04-07
+### 1016. 제곱ㄴㄴ수
+* G1
+> * 출처 : https://www.acmicpc.net/problem/1016
+
 ### 1655. 가운데를 말해요
 * G2
 > * 출처 : https://www.acmicpc.net/problem/1655
