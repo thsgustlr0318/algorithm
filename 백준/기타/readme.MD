@@ -1,6 +1,10 @@
 # 백준 기타
 
 ## 2020-04-12
+### 1033. 칵테일
+* G1
+> * 출처 : https://www.acmicpc.net/problem/1033
+
 ### 1091. 카드 섞기
 * G2
 > * 출처 : https://www.acmicpc.net/problem/1091
