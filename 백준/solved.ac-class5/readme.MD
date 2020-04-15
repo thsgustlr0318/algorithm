@@ -1,5 +1,18 @@
 # 백준 solved.ac class4
 
+## 2020-04-15
+### 2473	. ACM Craft
+* G3
+> * 출처 : https://www.acmicpc.net/problem/1005
+
+### 2473	. 세 용액
+* G4
+> * 출처 : https://www.acmicpc.net/problem/2473
+
+### 2239. 스도쿠
+* G4
+> * 출처 : https://www.acmicpc.net/problem/2239
+
 ## 2020-04-14
 ### 2056. 작업
 * G4
