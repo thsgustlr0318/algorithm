@@ -1,5 +1,29 @@
 # 백준 solved.ac class4
 
+## 2020-04-20
+### 2623. 음악프로그램
+* G2
+> * 출처 : https://www.acmicpc.net/problem/2623
+
+## 2020-04-18
+### 2568. 전깃줄
+* G2
+> * 출처 : https://www.acmicpc.net/problem/2568
+
+## 2020-04-17
+### 11473. LCA
+* G3
+> * 출처 : https://www.acmicpc.net/problem/11437
+
+### 11049. 행렬 곱셈 순서
+* G3
+> * 출처 : https://www.acmicpc.net/problem/11049
+
+## 2020-04-16
+### 7579. 앱
+* G3
+> * 출처 : https://www.acmicpc.net/problem/7579
+
 ## 2020-04-15
 ### 2473	. ACM Craft
 * G3
