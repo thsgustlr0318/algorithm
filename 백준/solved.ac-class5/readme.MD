@@ -1,6 +1,10 @@
 # 백준 solved.ac class4
 
 ## 2020-04-20
+### 10942. 팰린드롬?
+* G2
+> * 출처 : https://www.acmicpc.net/problem/10942
+
 ### 2623. 음악프로그램
 * G2
 > * 출처 : https://www.acmicpc.net/problem/2623
