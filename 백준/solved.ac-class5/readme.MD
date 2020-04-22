@@ -1,6 +1,31 @@
-# 백준 solved.ac class4
+# 백준 solved.ac class5
+
+## 2020-04-22
+### 4386. 별자리 만들기
+* G4
+> * 출처 : https://www.acmicpc.net/problem/4386
+
+### 1647. 도시 분할 계획
+* G4
+> * 출처 : https://www.acmicpc.net/problem/1647
+
+### 12849. 본대 산책
+* S1
+> * 출처 : https://www.acmicpc.net/problem/12849
+
+### 14003. 가장 긴 증가하는 부분수열5
+* G1
+> * 출처 : https://www.acmicpc.net/problem/14003
+
+### 9328. 열쇠
+* G1
+> * 출처 : https://www.acmicpc.net/problem/9328
 
 ## 2020-04-20
+### 2098. 외판원 순회
+* G1
+> * 출처 : https://www.acmicpc.net/problem/2098
+
 ### 10942. 팰린드롬?
 * G2
 > * 출처 : https://www.acmicpc.net/problem/10942
