@@ -1,5 +1,10 @@
 # 백준 solved.ac class5
 
+## 2020-04-23
+### 17404. RGB거리 2
+* G4
+> * 출처 : https://www.acmicpc.net/problem/17404
+
 ## 2020-04-22
 ### 4386. 별자리 만들기
 * G4
