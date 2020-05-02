@@ -11,3 +11,12 @@
 
 ### [1차] 프렌즈4블록
 > * 출처 : https://programmers.co.kr/learn/courses/30/lessons/17679
+
+### [1차] 캐시
+> * 출처 : https://programmers.co.kr/learn/courses/30/lessons/17680
+
+### [1차] 비밀지도
+> * 출처 : https://programmers.co.kr/learn/courses/30/lessons/17681
+
+### [1차] 다트게임
+> * 출처 : https://programmers.co.kr/learn/courses/30/lessons/17682
